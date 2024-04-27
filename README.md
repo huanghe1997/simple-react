@@ -1,5 +1,13 @@
-## 1.实现单个useEffect函数
-   ### 实现思路：
-      1.编写useEffect函数，并将callback和被监听数据的数组存起来。将其赋值给正在执行的fiber节点(wipFiber);
-      2.在vDom挂载之后，浏览器渲染之前,调用callback。
-      
+# simple-react
+
+## 技术栈:webpack+javascript
+
+##  主要功能
+
+1. 使用babel-loader以支持jsx语法
+2. 基于fiber架构和时间分片思想，实现scheduler和reconcileChildren
+3. 使用requestIdleCallback WebAPI实现workLoop
+4. 实现useState和useEffect Hook
+
+## 后续会持续更新
+
